@@ -8,10 +8,45 @@
     height: 80x;
     padding: 10px;
     background-color: aqua;
-    box-sizing: border-box;
-    
+   
 }
+
+.align{
+    vertical-align: middle;
+
+}
+
 .inl {
     display: inline-block;
+    vertical-align: middle;
+   
+}
+
+main {
+    margin: 30px 200px 30px 200px;  
+    
+}
+
+.cerchio{
+    display: inline-block;
+    width: 20px;
+    height:  20px;
+    border-radius: 50%;
+    border-color: solid black;
+    text-align: center;
+    background-color: green;
+}
+
+.display {
+    display: inline-block;  
+}
+
+.rettangolo {
+    width: 40px;
+    height: 20px;
+    border-radius: 25%;
+    background-color: purple;
+}
+
 
 }
