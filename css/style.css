@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.int {
+    height: 80x;
+    padding: 10px;
+    background-color: aqua;
+    box-sizing: border-box;
+    
+}
+.inl {
+    display: inline-block;
+
+}
