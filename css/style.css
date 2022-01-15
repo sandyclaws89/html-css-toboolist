@@ -4,49 +4,146 @@
     border: 0;
 }
 
+body{
+    background-color: #f6f8f6;
+}
+
 .int {
     height: 80x;
     padding: 10px;
-    background-color: aqua;
-   
+    background-color: white;
 }
 
 .align{
     vertical-align: middle;
-
 }
 
-.inl {
+.form1 {
     display: inline-block;
-    vertical-align: middle;
-   
+    font-size: 40px; 
 }
 
 main {
     margin: 30px 200px 30px 200px;  
-    
+    background-color: white;
+    border-radius: 3%;
 }
 
-.cerchio{
+.bottom-block{
+    border: solid #f6f8f9;
+}
+
+.sansserif{
+    font-family: sans-serif;
+}
+
+.inline{
     display: inline-block;
-    width: 20px;
-    height:  20px;
-    border-radius: 50%;
-    border-color: solid black;
-    text-align: center;
-    background-color: green;
 }
 
-.display {
-    display: inline-block;  
+.addtask{
+    background-color: #47adf1;
+    border-radius: 15%;
+    color: white;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px 5px 0px 5px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+}
+
+.addsection{
+    border-radius: 15%;
+    color: #c5cbd0;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    padding:  8px 5px 0px 5px;
+    border: solid #c5cbd0;
+    box-sizing: content-box;    
+}
+
+.checkhight {
+    line-height: 40px;
+}
+
+.margin{
+    margin-left: 10%;
+}
+
+.checkcircle{
+    width: 18px;
+    height:  18px;
+    border-radius: 50%;
+    border: solid green;
+    text-align: center;
+    border-width: 2px;   
+}
+
+.checkmark {
+    position: relative;
+    bottom: 13px;
+    vertical-align: middle;
+    color: green;
 }
 
 .rettangolo {
     width: 40px;
     height: 20px;
-    border-radius: 25%;
-    background-color: purple;
+    border-radius: 40%;
+    background-color: #47adf1;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.padding {
+    padding-top: 35px;
+}
+
+.cross {
+    position: relative;
+    bottom: 13px;
+    vertical-align: middle;
+    color: red;
+}
+
+.crosscircle {
+    width: 18px;
+    height:  18px;
+    border-radius: 50%;
+    border: solid red;
+    text-align: center;
+    border-width: 2px;
+}
+
+.purple {
+    background-color: #9c72e4;
+}
+
+.green{
+    background-color: #64c0a9;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.yellow{
+    background-color: #b0c926;
+}
+
+.pink {
+    background-color: #d863a1;
 }
 
 
-}
+
+
+
+
